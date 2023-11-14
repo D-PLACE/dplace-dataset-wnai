@@ -1,0 +1,8 @@
+{
+    "id": "dplace-dataset-wnai",
+    "title": "D-PLACE dataset derived from Jorgensen 1980 'Western Indians'",
+    "description": "The Western North American Indians (WNAI) dataset describes cultural practices for 172 societies in Western North America.",
+    "license": "CC-BY-NC-4.0",
+    "url": "https://archive.org/details/westernindiansco0000jorg",
+    "citation": "Jorgensen, JG. 1980. Western Indians: Comparative Environments, Languages, and Cultures of 172 Western American Indian Tribes. San Francisco: W.H. Freeman and Company."
+}
