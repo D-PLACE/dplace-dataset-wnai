@@ -1009,9 +1009,9 @@ WNAI231-5,WNAI231,Predomin male affine,Boats are built by male task groups whose
 WNAI231-6,WNAI231,Predomin female kin,Boats are built by female task groups whose members are predominantly kin-related,6
 WNAI231-7,WNAI231,Predom female affine,Boats are built by task groups whose members are predominantly affine-related,7
 WNAI232-NA,WNAI232,Missing data,Missing data,99
-WNAI232-1,WNAI232,Absent,Houses built primarily by women,1
-WNAI232-2,WNAI232,Houses by females,Houses built primarily by men,2
-WNAI232-3,WNAI232,Houses by males,"Houses built by men and women, neither clearly predominating",3
+WNAI232-1,WNAI232,Houses by females,Houses built primarily by women,1
+WNAI232-2,WNAI232,Houses by males,Houses built primarily by men,2
+WNAI232-3,WNAI232,Houses by females and males,"Houses built by men and women, neither clearly predominating",3
 WNAI233-NA,WNAI233,Missing data,Missing data,99
 WNAI233-1,WNAI233,No spec except sex,No specialization other than perhaps sex,1
 WNAI233-2,WNAI233,Spc skill/supnat pwr,"Select people who possess either special skills or supernatural power, or both, specialize in house construction",2

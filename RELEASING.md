@@ -1,11 +1,29 @@
-# Releasing WNAI
-
-This dataset is curated using `pydplace`. See the [README](https://github.com/D-PLACE/pydplace?tab=readme-ov-file#release-workflow) for release instructions.
+# Releasing the ea
 
 
-## Notes
-
-The map must be created **without** the `--pacific-centered` option, i.e. running
 ```shell
-$ cldfbench cldfviz.map cldf  --format png --width 20 --output map.png --with-ocean --no-legend
+cldfbench makecldf cldfbench_wnai.py --with-zenodo --with-cldfreadme --glottolog-version v5.2
+pytest
+```
+
+```shell
+cldfbench cldfviz.map cldf --pacific-centered --format png --width 20 --output map.png --with-ocean
+```
+
+```shell
+cldfbench readme cldfbench_wnai.py
+cldfbench zenodo --communities dplace cldfbench_wnai.py
+dplace check cldfbench_wnai.py
+```
+
+```shell
+git status
+git tag
+```
+
+Adapt CHANGELOG.md.
+Add, commit and push all changes.
+
+```shell
+dplace release cldfbench_wnai.py vX.Y
 ```
